@@ -1,0 +1,17 @@
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/bin/Debug/net8.0/FunToPlay.Infrastructure.deps.json
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/bin/Debug/net8.0/FunToPlay.Infrastructure.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/bin/Debug/net8.0/FunToPlay.Infrastructure.pdb
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/bin/Debug/net8.0/FunToPlay.Domain.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/bin/Debug/net8.0/FunToPlay.Domain.pdb
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.csproj.AssemblyReference.cache
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.AssemblyInfoInputs.cache
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.AssemblyInfo.cs
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPla.CB2ADCC9.Up2Date
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/refint/FunToPlay.Infrastructure.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.pdb
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/ref/FunToPlay.Infrastructure.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/bin/Debug/net8.0/FunToPlay.Infrastructure.runtimeconfig.json
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/obj/Debug/net8.0/FunToPlay.Infrastructure.genruntimeconfig.cache

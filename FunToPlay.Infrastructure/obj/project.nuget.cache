@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1ZZx5KRha4g=",
+  "success": true,
+  "projectFilePath": "/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/FunToPlay.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/Andrei.Coman/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.119/stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "/Users/Andrei.Coman/.nuget/packages/system.data.sqlite.core/1.0.119/system.data.sqlite.core.1.0.119.nupkg.sha512"
+  ],
+  "logs": []
+}

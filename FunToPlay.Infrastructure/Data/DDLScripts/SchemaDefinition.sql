@@ -1,0 +1,27 @@
+CREATE TABLE Players (
+     PlayerId TEXT PRIMARY KEY,
+     DeviceId TEXT NOT NULL UNIQUE,
+     IsConnected INTEGER NOT NULL,
+     CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE PlayerResources (
+     ResourceId INTEGER PRIMARY KEY AUTOINCREMENT,
+     PlayerId TEXT NOT NULL,
+     ResourceType TEXT NOT NULL,
+     ResourceValue INTEGER NOT NULL,
+     CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+     UpdatedAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+     FOREIGN KEY (PlayerId) REFERENCES Players (PlayerId)
+);
+
+CREATE TABLE Gifts (
+   GiftId INTEGER PRIMARY KEY AUTOINCREMENT,
+   SenderId TEXT NOT NULL,
+   RecipientId TEXT NOT NULL,
+   ResourceType TEXT NOT NULL,
+   ResourceValue INTEGER NOT NULL,
+   SentAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+   FOREIGN KEY (SenderId) REFERENCES Players (PlayerId),
+   FOREIGN KEY (RecipientId) REFERENCES Players (PlayerId)
+);

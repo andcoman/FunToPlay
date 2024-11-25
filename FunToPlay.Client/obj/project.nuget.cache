@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nl1W+k9aAeM=",
+  "success": true,
+  "projectFilePath": "/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Client/FunToPlay.Client.csproj",
+  "expectedPackageFiles": [
+    "/Users/Andrei.Coman/.nuget/packages/serilog/4.1.0/serilog.4.1.0.nupkg.sha512",
+    "/Users/Andrei.Coman/.nuget/packages/serilog.sinks.file/6.0.0/serilog.sinks.file.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

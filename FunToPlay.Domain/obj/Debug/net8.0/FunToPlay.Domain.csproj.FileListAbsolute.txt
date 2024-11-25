@@ -1,0 +1,11 @@
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/bin/Debug/net8.0/FunToPlay.Domain.deps.json
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/bin/Debug/net8.0/FunToPlay.Domain.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/bin/Debug/net8.0/FunToPlay.Domain.pdb
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/FunToPlay.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/FunToPlay.Domain.AssemblyInfoInputs.cache
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/FunToPlay.Domain.AssemblyInfo.cs
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/FunToPlay.Domain.csproj.CoreCompileInputs.cache
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/FunToPlay.Domain.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/refint/FunToPlay.Domain.dll
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/FunToPlay.Domain.pdb
+/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/obj/Debug/net8.0/ref/FunToPlay.Domain.dll

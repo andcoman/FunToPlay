@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DrgVbxBz2uk=",
+  "success": true,
+  "projectFilePath": "/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Application/FunToPlay.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/Andrei.Coman/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/Andrei.Coman/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

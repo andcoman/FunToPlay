@@ -1,8 +1,8 @@
 namespace FunToPlay.Application.Messages;
 using Metadata;
 
-public abstract class MessageBase
+public class MessageBase
 {
-    public abstract Metadata Metadata { get; set; }
-    public abstract string MessageType { get; set; }
+    public Metadata Metadata { get; set; }
+    public string MessageType { get; set; }
 }

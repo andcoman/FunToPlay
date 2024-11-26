@@ -1,14 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunToPlay.Domain", "FunToPlay.Domain\FunToPlay.Domain.csproj", "{C30CE8B1-4123-44B0-B69C-AA41AD3E05EE}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunToPlay.Domain", "FunToPlay.Domain\FunToPlay.Domain.csproj", "{C30CE8B1-4123-44B0-B69C-AA41AD3E05EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunToPlay.Application", "FunToPlay.Application\FunToPlay.Application.csproj", "{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunToPlay.Application", "FunToPlay.Application\FunToPlay.Application.csproj", "{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunToPlay.Infrastructure", "FunToPlay.Infrastructure\FunToPlay.Infrastructure.csproj", "{78984109-20CC-4BC3-89CB-879A050CF2E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunToPlay.Infrastructure", "FunToPlay.Infrastructure\FunToPlay.Infrastructure.csproj", "{78984109-20CC-4BC3-89CB-879A050CF2E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunToPlay.Server", "FunToPlay.Server\FunToPlay.Server.csproj", "{55924F91-A76B-4643-B179-717DD266F7DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunToPlay.Server", "FunToPlay.Server\FunToPlay.Server.csproj", "{55924F91-A76B-4643-B179-717DD266F7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunToPlay.Client", "FunToPlay.Client\FunToPlay.Client.csproj", "{A95C30B6-1A20-4176-9039-5D614237D35C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunToPlay.Client", "FunToPlay.Client\FunToPlay.Client.csproj", "{A95C30B6-1A20-4176-9039-5D614237D35C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +39,11 @@ Global
 		{A95C30B6-1A20-4176-9039-5D614237D35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A95C30B6-1A20-4176-9039-5D614237D35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A95C30B6-1A20-4176-9039-5D614237D35C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEA85BF4-22F5-4870-8E2B-05E00756117B}
 	EndGlobalSection
 EndGlobal

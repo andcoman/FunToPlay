@@ -6,8 +6,11 @@ using FunToPlay.Infrastructure.Extensions;
 
 public class PlayerRepository : IPlayerRepository
 {
-    private readonly string _connectionString = "$\"Data Source={Path.Combine(AppContext.BaseDirectory, \"FunToPlay.sqlite\")};\";";
-    
+    private static readonly string basePath = new DirectoryInfo(AppContext.BaseDirectory)
+        .Parent?.Parent?.Parent?.Parent?.FullName ?? throw new InvalidOperationException("Base path could not be determined.");
+
+    private readonly string _connectionString = $"Data Source={Path.Combine(basePath, "FunToPlay.sqlite")};";
+
     public async Task<Player?> GetByIdAsync(Guid playerId, CancellationToken cancellationToken)
     {
         using var connection = new SQLiteConnection(_connectionString);
@@ -64,12 +67,8 @@ public class PlayerRepository : IPlayerRepository
         await connection.OpenAsync(cancellationToken);
 
         var command = new SQLiteCommand(@"
-            INSERT INTO Players (PlayerId, DeviceId, IsConnected, CreatedAt)
-            VALUES (@PlayerId, @DeviceId, @IsConnected, @CreatedAt)
-            ON CONFLICT(PlayerId) DO UPDATE SET
-            DeviceId = excluded.DeviceId,
-            IsConnected = excluded.IsConnected,
-            CreatedAt = excluded.CreatedAt", connection);
+                INSERT OR REPLACE INTO Players (PlayerId, DeviceId, IsConnected, CreatedAt)
+                VALUES (@PlayerId, @DeviceId, @IsConnected, @CreatedAt);", connection);
 
         var playerDb = player.ToDbEntity();
         command.Parameters.AddWithValue("@PlayerId", playerDb.PlayerId);
@@ -95,5 +94,66 @@ public class PlayerRepository : IPlayerRepository
         command.Parameters.AddWithValue("@PlayerId", playerId.ToString());
 
         await command.ExecuteNonQueryAsync(cancellationToken);
+    }
+
+    public async Task AddOrUpdateResourceAsync(Guid playerId, string resourceType, long resourceValue, CancellationToken cancellationToken)
+    {
+        using var connection = new SQLiteConnection(_connectionString);
+        await connection.OpenAsync(cancellationToken);
+
+        var command = new SQLiteCommand(@"
+        INSERT OR REPLACE INTO PlayerResources (PlayerId, ResourceType, ResourceValue, CreatedAt)
+        VALUES (@PlayerId, @ResourceType, @ResourceValue, @CreatedAt);", connection);
+
+        command.Parameters.AddWithValue("@PlayerId", playerId.ToString());
+        command.Parameters.AddWithValue("@ResourceType", resourceType);
+        command.Parameters.AddWithValue("@ResourceValue", resourceValue);
+        command.Parameters.AddWithValue("@CreatedAt", DateTime.UtcNow);
+
+        await command.ExecuteNonQueryAsync(cancellationToken);
+    }
+
+    public async Task<Dictionary<string, int>> GetResourcesAsync(Guid playerId, CancellationToken cancellationToken)
+    {
+        using var connection = new SQLiteConnection(_connectionString);
+        await connection.OpenAsync(cancellationToken);
+
+        var command = new SQLiteCommand("SELECT ResourceType, ResourceValue FROM PlayerResources WHERE PlayerId = @PlayerId", connection);
+        command.Parameters.AddWithValue("@PlayerId", playerId.ToString());
+
+        using var reader = await command.ExecuteReaderAsync(cancellationToken);
+
+        var resources = new Dictionary<string, int>();
+        while (await reader.ReadAsync(cancellationToken))
+        {
+            var resourceType = reader.GetString(0);
+            var resourceValue = reader.GetInt32(1);
+            resources[resourceType] = resourceValue;
+        }
+
+        return resources;
+    }
+
+    public async Task<int?> GetResourceValueAsync(Guid playerId, string resourceType, CancellationToken cancellationToken)
+    {
+        using var connection = new SQLiteConnection(_connectionString);
+        await connection.OpenAsync(cancellationToken);
+
+        var command = new SQLiteCommand(@"
+        SELECT ResourceValue 
+        FROM PlayerResources 
+        WHERE PlayerId = @PlayerId AND ResourceType = @ResourceType", connection);
+
+        command.Parameters.AddWithValue("@PlayerId", playerId.ToString());
+        command.Parameters.AddWithValue("@ResourceType", resourceType);
+
+        using var reader = await command.ExecuteReaderAsync(cancellationToken);
+
+        if (await reader.ReadAsync(cancellationToken))
+        {
+            return reader.GetInt32(0);
+        }
+
+        return null;
     }
 }

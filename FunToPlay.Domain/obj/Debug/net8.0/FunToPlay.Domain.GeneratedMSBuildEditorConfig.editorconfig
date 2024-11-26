@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FunToPlay.Domain
-build_property.ProjectDir = /Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Domain/
+build_property.ProjectDir = C:\Users\andre\FunToPlay\FunToPlay.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

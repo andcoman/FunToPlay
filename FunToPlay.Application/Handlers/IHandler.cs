@@ -1,4 +1,5 @@
 using System.Net.WebSockets;
+using FunToPlay.Application.Session;
 using FunToPlay.Domain.Utils;
 
 namespace FunToPlay.Application.Handlers;

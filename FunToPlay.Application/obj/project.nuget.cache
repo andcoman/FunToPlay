@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DrgVbxBz2uk=",
+  "dgSpecHash": "LcnijJJIpLEPeiFj6op4u3fUMa8c4jMfUbN3bnk8Li+i7aHgX+pM6tpSVHrcR55wl+p8t6rGPDoP3RZIaoyYpA==",
   "success": true,
-  "projectFilePath": "/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Application/FunToPlay.Application.csproj",
+  "projectFilePath": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\FunToPlay.Application.csproj",
   "expectedPackageFiles": [
-    "/Users/Andrei.Coman/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
-    "/Users/Andrei.Coman/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
   ],
   "logs": []
 }

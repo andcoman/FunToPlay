@@ -3,9 +3,12 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Text.Json;
 using FunToPlay.Application.Messages;
+using FunToPlay.Application.Messages.Responses;
 using FunToPlay.Application.Session;
 using FunToPlay.Application.Utils;
 using FunToPlay.Domain.Repositories;
+using FunToPlay.Domain.Utils;
+using System.Text.Json.Nodes;
 
 namespace FunToPlay.Server.Services;
 
@@ -14,9 +17,10 @@ public class WebSocketService
     private readonly  MessageHandler _messageHandler;
     private readonly SessionTracker _sessionTracker;
     
-    public WebSocketService(MessageHandler messageHandler)
+    public WebSocketService(MessageHandler messageHandler, SessionTracker sessionTracker)
     {
         _messageHandler = messageHandler;
+        _sessionTracker = sessionTracker;
     }
 
     public async Task StartAsync(string address)
@@ -81,11 +85,30 @@ public class WebSocketService
                 Console.WriteLine("Invalid message received.");
                 return;
             }
-            
+
+            var jsonNode = JsonNode.Parse(messageJson);
+            if (jsonNode != null && jsonNode["Metadata"] != null)
+            {
+                jsonNode["Metadata"]["WebSocketHashCode"] = webSocket.GetHashCode();
+                messageJson = jsonNode.ToJsonString();
+            }
+
             var response = await _messageHandler.ResolveAndInvokeAsync(baseMessage.MessageType, messageJson);
+
+            var responseJson = JsonSerializer.Serialize(response);
+            if (baseMessage.MessageType == "Login")
+            {
+                var deserializedRequest = JsonSerializer.Deserialize<LoginRequest>(messageJson);
+                
+                var castedResponse = response as OperationResult<LoginMessageResponse>;
+
+                var playerId = Guid.Parse(castedResponse?.Value?.PlayerId);
+
+                _sessionTracker.Add(playerId, deserializedRequest.DeviceId, webSocket);
+            }
             
-            var responseJson = System.Text.Json.JsonSerializer.Serialize(response);
-            await webSocket.SendAsync(Encoding.UTF8.GetBytes(responseJson), WebSocketMessageType.Text, true, default);
+            await webSocket.SendAsync(Encoding.UTF8.GetBytes(responseJson), WebSocketMessageType.Text,
+                true, default);
 
         }
         catch (Exception ex)

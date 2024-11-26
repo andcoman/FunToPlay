@@ -1,6 +1,8 @@
+using FluentValidation;
 using FunToPlay.Application.Handlers;
 using FunToPlay.Application.Messages;
 using FunToPlay.Application.Messages.Responses;
+using FunToPlay.Application.Validators;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace FunToPlay.Application.Utils;
@@ -9,6 +11,10 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddHandlers(this IServiceCollection services)
     {
+        services.AddScoped<LoginHandler>();
+        services.AddScoped<UpdateResourcesHandler>();
+        services.AddScoped<SendGiftHandler>();
+
         services.AddScoped<IHandler<LoginRequest, LoginMessageResponse>, LoginHandler>();
         services.AddScoped<IHandler<UpdateResourcesRequest, UpdateResourceMessageResponse>, UpdateResourcesHandler>();
         services.AddScoped<IHandler<SendGiftRequest, SendGiftMessageLoginResponse>, SendGiftHandler>();
@@ -22,6 +28,13 @@ public static class ServiceCollectionExtensions
             
             return resolver;
         });
+
+        return services;
+    }
+
+    public static IServiceCollection AddValidators(this IServiceCollection services)
+    {
+        services.AddValidatorsFromAssemblyContaining<LoginMessageRequestValidator>();
 
         return services;
     }

@@ -79,7 +79,6 @@ public class LoginHandler : IHandler<LoginRequest, LoginMessageResponse>
         {
             player.Login();
             await _playerRepository.UpsertAsync(player, CancellationToken.None);
-            _sessionTracker.Add(player.PlayerId, player.DeviceId);
         }
         catch (Exception)
         {

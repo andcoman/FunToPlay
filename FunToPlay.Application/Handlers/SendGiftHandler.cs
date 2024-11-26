@@ -1,5 +1,6 @@
 using FunToPlay.Application.Messages;
 using FunToPlay.Application.Messages.Responses;
+using FunToPlay.Application.Session;
 using FunToPlay.Domain.Utils;
 
 namespace FunToPlay.Application.Handlers;

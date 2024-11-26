@@ -5,32 +5,35 @@ namespace FunToPlay.Application.Session;
 
 public class SessionTracker
 {
-    private readonly ConcurrentDictionary<Guid, ConcurrentBag<string>> _playerSessions = new();
+    private readonly ConcurrentDictionary<Guid, WebSocketTracker> _playerSessions = new();
 
-    public ConcurrentDictionary<Guid, ConcurrentBag<string>> PlayerSessions => _playerSessions;
+    public ConcurrentDictionary<Guid, WebSocketTracker> PlayerSessions => _playerSessions;
 
-    public void Add(Guid playerId, string deviceId)
+    public void Add(Guid playerId, string deviceId ,WebSocket webSocket)
     {
         _playerSessions.AddOrUpdate(playerId,
-            _ => new ConcurrentBag<string> { deviceId },
-            (guid, bag) =>
+            new WebSocketTracker
             {
-                bag.Add(deviceId);
-                return bag;
+                DeviceId = deviceId,
+                WebSocket = webSocket
+            },
+            (key, existingTracker) =>
+            {
+                existingTracker.WebSocket = webSocket;
+                return existingTracker;
             });
     }
 
-    public void Remove(string playerId, string deviceId)
+    public Guid? GetPlayerIdByWebSocketHashCode(int webSocketHashCode)
     {
-        var playerIdToGuid = Guid.Parse(playerId);
-
-        if (_playerSessions.TryGetValue(playerIdToGuid, out var bag))
+        foreach (var kvp in _playerSessions)
         {
-            var item = bag.FirstOrDefault(x => x == deviceId);
-            if (item != default)
+            if (kvp.Value.WebSocket.GetHashCode() == webSocketHashCode)
             {
-                bag.TryTake(out item);
+                return kvp.Key;
             }
         }
+
+        return null;
     }
 }

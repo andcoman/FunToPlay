@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunToPlay.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa72a6d22471274121a79bad8f7390f569a4ef5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunToPlay.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunToPlay.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

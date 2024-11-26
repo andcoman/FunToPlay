@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZZx5KRha4g=",
+  "dgSpecHash": "TsEpBDZUUiOJ3GpVYJUcZIUIVIJsE7gHkOVkmwhblp5TyHMvqMkX+Yu/N5pSL2gyJuJDqjfarMdh6SGZSOwbWA==",
   "success": true,
-  "projectFilePath": "/Users/Andrei.Coman/RiderProjects/FunToPlay/FunToPlay.Infrastructure/FunToPlay.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "/Users/Andrei.Coman/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.119/stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
-    "/Users/Andrei.Coman/.nuget/packages/system.data.sqlite.core/1.0.119/system.data.sqlite.core.1.0.119.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
   ],
   "logs": []
 }

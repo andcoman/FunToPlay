@@ -6,20 +6,20 @@ using Serilog;
 
 Console.WriteLine("Hello, World!");
 
-static async Task Main(string[] args)
-{   
-    ConfigureLogging();
+ 
+ConfigureLogging();
 
-    using var client = new ClientWebSocket();
-    await client.ConnectAsync(new Uri("ws://localhost:5000/"), default);
-    Log.Information("Connected to the server.");
+using var client = new ClientWebSocket();
+await client.ConnectAsync(new Uri("ws://localhost:5000/"), default);
+Log.Information("Connected to the server.");
+var result = await LoginAsync(client, "device144456792121212121");
+Log.Information($"User id is: {result}");
+var newBalance = await UpdateResourcesAsync(client, "coins", 122);
+Log.Information($"New balance is {newBalance}");
 
-    // Example usage
-    await LoginAsync(client, "device123");
+Console.WriteLine("Press any key to exit...");
+Console.ReadKey();
 
-    Console.WriteLine("Press any key to exit...");
-    Console.ReadKey();
-}
 
 static void ConfigureLogging()
 {
@@ -28,40 +28,42 @@ static void ConfigureLogging()
         .CreateLogger();
 }
 
-static async Task LoginAsync(ClientWebSocket client, string deviceId)
+static async Task<string> LoginAsync(ClientWebSocket client, string deviceId)
 {
     var loginRequest = new
     {
-        Type = "Login",
-        Payload = new { DeviceId = deviceId }
+        Metadata = new
+        {
+            Id = Guid.NewGuid().ToString(),
+            Version = 1,
+            Timestamp = DateTime.UtcNow
+        },
+        MessageType = "Login",
+        DeviceId = deviceId
     };
 
-    await SendMessageAsync(client, loginRequest);
+    return await SendMessageAsync(client, loginRequest);
 }
 
-static async Task UpdateResourcesAsync(ClientWebSocket client, string deviceId, string resourceType, int resourceValue)
+static async Task<string> UpdateResourcesAsync(ClientWebSocket client, string resourceType, int resourceValue)
 {
     var updateResourcesRequest = new
     {
-        Type = "UpdateResources",
-        Payload = new { DeviceId = deviceId, ResourceType = resourceType, ResourceValue = resourceValue }
+        Metadata = new
+        {
+            Id = Guid.NewGuid().ToString(),
+            Version = 1,
+            Timestamp = DateTime.UtcNow
+        },
+        MessageType = "UpdateResources",
+        ResourceType = resourceType, 
+        ResourceValue = resourceValue
     };
 
-    await SendMessageAsync(client, updateResourcesRequest);
+    return await SendMessageAsync(client, updateResourcesRequest);
 }
 
-static async Task SendGiftAsync(ClientWebSocket client, string deviceId, string friendPlayerId, string resourceType, int resourceValue)
-{
-    var sendGiftRequest = new
-    {
-        Type = "SendGift",
-        Payload = new { DeviceId = deviceId, FriendPlayerId = friendPlayerId, ResourceType = resourceType, ResourceValue = resourceValue }
-    };
-
-    await SendMessageAsync(client, sendGiftRequest);
-}
-
-static async Task SendMessageAsync(ClientWebSocket client, object message)
+static async Task<string> SendMessageAsync(ClientWebSocket client, object message)
 {
     var messageJson = JsonSerializer.Serialize(message);
     var messageBuffer = Encoding.UTF8.GetBytes(messageJson);
@@ -72,4 +74,6 @@ static async Task SendMessageAsync(ClientWebSocket client, object message)
     var responseJson = Encoding.UTF8.GetString(responseBuffer, 0, response.Count);
 
     Log.Information("Received response: {Response}", responseJson);
+
+    return responseJson;
 }

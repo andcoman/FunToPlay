@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andre\\FunToPlay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A95C30B6-1A20-4176-9039-5D614237D35C}|FunToPlay.Client\\FunToPlay.Client.csproj|c:\\users\\andre\\funtoplay\\funtoplay.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95C30B6-1A20-4176-9039-5D614237D35C}|FunToPlay.Client\\FunToPlay.Client.csproj|solutionrelative:funtoplay.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\handlers\\updateresourceshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\handlers\\updateresourceshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55924F91-A76B-4643-B179-717DD266F7DF}|FunToPlay.Server\\FunToPlay.Server.csproj|c:\\users\\andre\\funtoplay\\funtoplay.server\\services\\websocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55924F91-A76B-4643-B179-717DD266F7DF}|FunToPlay.Server\\FunToPlay.Server.csproj|solutionrelative:funtoplay.server\\services\\websocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|c:\\users\\andre\\funtoplay\\funtoplay.infrastructure\\repositories\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|solutionrelative:funtoplay.infrastructure\\repositories\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\utils\\messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\utils\\messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55924F91-A76B-4643-B179-717DD266F7DF}|FunToPlay.Server\\FunToPlay.Server.csproj|c:\\users\\andre\\funtoplay\\funtoplay.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55924F91-A76B-4643-B179-717DD266F7DF}|FunToPlay.Server\\FunToPlay.Server.csproj|solutionrelative:funtoplay.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\requests\\updateresourcesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\requests\\updateresourcesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30CE8B1-4123-44B0-B69C-AA41AD3E05EE}|FunToPlay.Domain\\FunToPlay.Domain.csproj|c:\\users\\andre\\funtoplay\\funtoplay.domain\\repositories\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30CE8B1-4123-44B0-B69C-AA41AD3E05EE}|FunToPlay.Domain\\FunToPlay.Domain.csproj|solutionrelative:funtoplay.domain\\repositories\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|c:\\users\\andre\\funtoplay\\funtoplay.infrastructure\\data\\entities\\resourcedbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|solutionrelative:funtoplay.infrastructure\\data\\entities\\resourcedbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\session\\websockettracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\session\\websockettracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\session\\sessiontracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\session\\sessiontracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\responses\\loginmessageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\responses\\loginmessageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\responses\\sendgiftmessageloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\responses\\sendgiftmessageloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\responses\\updateresourcemessageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\responses\\updateresourcemessageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\version.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\version.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\messageroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\messageroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\messagebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\messagebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\utils\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\utils\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|c:\\users\\andre\\funtoplay\\funtoplay.infrastructure\\data\\ddlscripts\\schemadefinition.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|solutionrelative:funtoplay.infrastructure\\data\\ddlscripts\\schemadefinition.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30CE8B1-4123-44B0-B69C-AA41AD3E05EE}|FunToPlay.Domain\\FunToPlay.Domain.csproj|c:\\users\\andre\\funtoplay\\funtoplay.domain\\events\\giftevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30CE8B1-4123-44B0-B69C-AA41AD3E05EE}|FunToPlay.Domain\\FunToPlay.Domain.csproj|solutionrelative:funtoplay.domain\\events\\giftevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\handlers\\sendgifthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\handlers\\sendgifthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\handlers\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\handlers\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\validators\\loginmessagerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\validators\\loginmessagerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\messages\\requests\\sendgiftrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\messages\\requests\\sendgiftrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|c:\\users\\andre\\funtoplay\\funtoplay.infrastructure\\data\\entities\\playerdbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|solutionrelative:funtoplay.infrastructure\\data\\entities\\playerdbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\validators\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\validators\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\validators\\sendgiftmessagerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\validators\\sendgiftmessagerequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|c:\\users\\andre\\funtoplay\\funtoplay.application\\validators\\updateresourcesmessagereuqestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AA00D4-8F9D-43A2-B0C3-76569CD384A3}|FunToPlay.Application\\FunToPlay.Application.csproj|solutionrelative:funtoplay.application\\validators\\updateresourcesmessagereuqestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|c:\\users\\andre\\funtoplay\\funtoplay.infrastructure\\data\\ddlscripts\\schemadefinition.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{78984109-20CC-4BC3-89CB-879A050CF2E8}|FunToPlay.Infrastructure\\FunToPlay.Infrastructure.csproj|solutionrelative:funtoplay.infrastructure\\data\\ddlscripts\\schemadefinition.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebSocketService.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Server\\Services\\WebSocketService.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Server\\Services\\WebSocketService.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Server\\Services\\WebSocketService.cs",
+              "RelativeToolTip": "FunToPlay.Server\\Services\\WebSocketService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAApwFgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:36:35.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Repositories\\PlayerRepository.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Infrastructure\\Repositories\\PlayerRepository.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Repositories\\PlayerRepository.cs",
+              "RelativeToolTip": "FunToPlay.Infrastructure\\Repositories\\PlayerRepository.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAIA4wGkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:29:14.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Server\\Program.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Server\\Program.cs",
+              "RelativeToolTip": "FunToPlay.Server\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:30:56.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SessionTracker.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Session\\SessionTracker.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Session\\SessionTracker.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Session\\SessionTracker.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Session\\SessionTracker.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:52:51.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Handlers\\LoginHandler.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\LoginHandler.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Handlers\\LoginHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAApwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:11:58.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Client\\Program.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Client\\Program.cs",
+              "RelativeToolTip": "FunToPlay.Client\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:40:27.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebSocketTracker.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Session\\WebSocketTracker.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Session\\WebSocketTracker.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Session\\WebSocketTracker.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Session\\WebSocketTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:58:47.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Utils\\MessageHandler.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Utils\\MessageHandler.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Utils\\MessageHandler.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Utils\\MessageHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:55:02.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateResourcesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\UpdateResourcesHandler.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Handlers\\UpdateResourcesHandler.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\UpdateResourcesHandler.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Handlers\\UpdateResourcesHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:44:45.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateResourcesRequest.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Requests\\UpdateResourcesRequest.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Requests\\UpdateResourcesRequest.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Requests\\UpdateResourcesRequest.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Requests\\UpdateResourcesRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:02:55.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SendGiftMessageLoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Responses\\SendGiftMessageLoginResponse.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Responses\\SendGiftMessageLoginResponse.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Responses\\SendGiftMessageLoginResponse.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Responses\\SendGiftMessageLoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:05:42.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Domain\\Repositories\\IPlayerRepository.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Domain\\Repositories\\IPlayerRepository.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Domain\\Repositories\\IPlayerRepository.cs",
+              "RelativeToolTip": "FunToPlay.Domain\\Repositories\\IPlayerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:29:37.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginMessageResponse.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Responses\\LoginMessageResponse.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Responses\\LoginMessageResponse.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Responses\\LoginMessageResponse.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Responses\\LoginMessageResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:08:18.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Requests\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:05:32.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResourceDbEntity.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Data\\Entities\\ResourceDbEntity.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Infrastructure\\Data\\Entities\\ResourceDbEntity.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Data\\Entities\\ResourceDbEntity.cs",
+              "RelativeToolTip": "FunToPlay.Infrastructure\\Data\\Entities\\ResourceDbEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:15:39.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateResourceMessageResponse.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Responses\\UpdateResourceMessageResponse.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Responses\\UpdateResourceMessageResponse.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Responses\\UpdateResourceMessageResponse.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Responses\\UpdateResourceMessageResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:57:03.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Version.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Version.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Version.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Version.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Version.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:07:56.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MessageRoutes.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\MessageRoutes.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\MessageRoutes.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\MessageRoutes.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\MessageRoutes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:06:57.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MessageBase.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\MessageBase.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\MessageBase.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\MessageBase.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\MessageBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:57:23.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Utils\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Utils\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Utils\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Utils\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:14:44.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SchemaDefinition.sql ",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Data\\DDLScripts\\SchemaDefinition.sql",
+              "RelativeDocumentMoniker": "FunToPlay.Infrastructure\\Data\\DDLScripts\\SchemaDefinition.sql",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Data\\DDLScripts\\SchemaDefinition.sql",
+              "RelativeToolTip": "FunToPlay.Infrastructure\\Data\\DDLScripts\\SchemaDefinition.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-26T11:05:24.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GiftEvents.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Domain\\Events\\GiftEvents.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Domain\\Events\\GiftEvents.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Domain\\Events\\GiftEvents.cs",
+              "RelativeToolTip": "FunToPlay.Domain\\Events\\GiftEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:56:10.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Metadata.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Metadata.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Metadata.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Metadata.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Metadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:09:18.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SendGiftRequest.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Requests\\SendGiftRequest.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Messages\\Requests\\SendGiftRequest.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Messages\\Requests\\SendGiftRequest.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Messages\\Requests\\SendGiftRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:04:00.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SendGiftHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\SendGiftHandler.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Handlers\\SendGiftHandler.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\SendGiftHandler.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Handlers\\SendGiftHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T09:14:43.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginMessageRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\LoginMessageRequestValidator.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Validators\\LoginMessageRequestValidator.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\LoginMessageRequestValidator.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Validators\\LoginMessageRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:26:54.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\IHandler.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Handlers\\IHandler.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Handlers\\IHandler.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Handlers\\IHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T09:06:01.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SendGiftMessageRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\SendGiftMessageRequestValidator.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Validators\\SendGiftMessageRequestValidator.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\SendGiftMessageRequestValidator.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Validators\\SendGiftMessageRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:06:12.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlayerDbEntity.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Data\\Entities\\PlayerDbEntity.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Infrastructure\\Data\\Entities\\PlayerDbEntity.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Infrastructure\\Data\\Entities\\PlayerDbEntity.cs",
+              "RelativeToolTip": "FunToPlay.Infrastructure\\Data\\Entities\\PlayerDbEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:22:33.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ValidatorBase.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\ValidatorBase.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Validators\\ValidatorBase.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\ValidatorBase.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Validators\\ValidatorBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:27:44.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateResourcesMessageReuqestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\UpdateResourcesMessageReuqestValidator.cs",
+              "RelativeDocumentMoniker": "FunToPlay.Application\\Validators\\UpdateResourcesMessageReuqestValidator.cs",
+              "ToolTip": "C:\\Users\\andre\\FunToPlay\\FunToPlay.Application\\Validators\\UpdateResourcesMessageReuqestValidator.cs",
+              "RelativeToolTip": "FunToPlay.Application\\Validators\\UpdateResourcesMessageReuqestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:06:31.352Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 77,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
